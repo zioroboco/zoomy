@@ -2,6 +2,16 @@
   "name": "@zoomy/app",
   "version": "0.0.0",
   "private": true,
-  "scripts": {},
-  "dependencies": {}
+  "scripts": {
+    "build": "webpack --config ./webpack.config.ts"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@types/webpack": "^4.4.11",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-syntax-typescript": "^7.0.0-alpha.19",
+    "ts-loader": "^5.0.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
 }
