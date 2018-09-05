@@ -3,7 +3,9 @@
   "author": "Louis Quinnell <zioroboco@gmail.com>",
   "license": "MIT",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "app": "yarn workspace @zoomy/app"
+  },
   "dependencies": {},
   "workspaces": [
     "packages/*"
