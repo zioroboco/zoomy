@@ -1,6 +1,7 @@
 {
   "repository": "https://github.com/zioroboco/zoomy",
   "author": "Louis Quinnell <zioroboco@gmail.com>",
+  "license": "MIT",
   "private": true,
   "scripts": {},
   "dependencies": {},
