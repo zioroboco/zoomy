@@ -6,7 +6,9 @@
   "scripts": {
     "app": "yarn workspace @zoomy/app"
   },
-  "dependencies": {},
+  "dependencies": {
+    "typescript": "^2.9.2"
+  },
   "workspaces": [
     "packages/*"
   ]
