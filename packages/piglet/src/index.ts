@@ -1,1 +1,1 @@
-export { Piglet } from "./Piglet"
+export { default } from "./Piglet"

@@ -6,6 +6,7 @@
   "scripts": {
     "app": "yarn workspace @zoomy/app",
     "piglet": "yarn workspace @zoomy/piglet",
+    "mooey": "yarn workspace @zoomy/mooey",
     "test": "yarn jest",
     "start": "yarn app start"
   },
