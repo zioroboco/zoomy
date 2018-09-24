@@ -1,10 +1,6 @@
-import * as React from "react"
-import * as ReactDOM from "react-dom"
+import { createElement } from "react"
+import { render } from "react-dom"
 
-import Thing from "./Thing"
+import { App } from "./App"
 
-const render = AppRoot => {
-  ReactDOM.render(React.createElement(AppRoot), document.getElementById("root"))
-}
-
-render(Thing)
+render(createElement(App), document.getElementById("root"))

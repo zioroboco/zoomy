@@ -4,11 +4,20 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "app": "yarn workspace @zoomy/app"
+    "app": "yarn workspace @zoomy/app",
+    "piglet": "yarn workspace @zoomy/piglet",
+    "test": "yarn jest",
+    "start": "yarn app start"
   },
   "dependencies": {
+    "@babel/core": "^7.1.0",
+    "@types/jest": "^23.3.2",
+    "@types/node": "^10.10.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.1",
     "ts-node": "^7.0.1",
-    "typescript": "^2.9.2"
+    "typescript": "^3.0.3"
   },
   "workspaces": [
     "packages/*"
